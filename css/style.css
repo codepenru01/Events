@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.site-header {
+    background: #3A5AFF;
+    padding-top: 18px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 18px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__img {
+    margin-right: 16px;
+}
+
+.logo__text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__item + .navbar__item {
+    margin-left: 122px;
+}
+
+.navbar__item__link {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.menu {
+    display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+    .nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.hero__section {
+    background: #3A5AFF;
+    padding-top: 74px;
+    width: 100%;
+    padding-bottom: 62px;
+}
+
+.hero__h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 114.1%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-bottom: 46px;
+}
+
+.marathon {
+    padding:105px 0 103px 46px ;
+    position: relative;
+    background-image: url('../img/maraphon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+.marathon__father{
+    width: 577px;
+}
+
+.hero__marathon__h2 {
+    font-weight: 800;
+    font-size: 41px;
+    line-height: 114.1%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.hero__text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 134%;
+    color: #FFFFFF;
+    margin-bottom: 39px;
+}
+
+.hero__link {
+    background: #3AB9F0;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 135%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 44px;
+}
+
+.hero__link:hover {
+    background: #FFFFFF;
+    color: #3AB9F0;
+}
+
+@media only screen and (max-width: 1100px) {
+    .marathon__father {
+        width: 100%;
+    }
+
+    .hero__h2 {
+        font-size: 18px;
+    }
+
+    .hero__marathon__h2 {
+        font-size: 20px;
+    }
+
+    .hero__text {
+        font-size: 18px;
+    }
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.services__title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 83px;
+    color: #000000;
+    margin-top: 140px;
+    margin-bottom: 60px;
+}
+
+.services__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inner {
+    max-width: 560px;
+}
+
+.inner__number {
+    background: #563AFF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 135%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 16px 21px;
+}
+
+.inner__heading {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 117.9%;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.inner__title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 135%;
+    color: #000000;
+    margin-top: 25px;
+}
+
+.inner__title + .inner__title {
+    margin-bottom: 62px;
+}
+
+.inner__link {
+    background: #3AB9F0;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 135%;
+    text-align: center;
+    color: #ffffff;
+    padding: 12px 40px;
+    border: 2px solid #3AB9F0;
+}
+
+.inner__link:hover {
+    color: #3AB9F0;
+    background: #ffffff;
+}
+
+.two {
+    margin-top: 127px;
+}
+
+.three {
+    margin-top: 127px;
+}
